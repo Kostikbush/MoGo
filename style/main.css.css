@@ -1168,7 +1168,6 @@ hr {
     z-index: 2;
     transform: translate3d(0, -50%, 0);
     opacity: 0;
-
     transition: opacity .4s linear;
 }
 
@@ -1242,3 +1241,35 @@ hr {
     margin-bottom: 115px;
 }
 
+.work {
+    margin-bottom: 100px;
+}
+
+.work__item-container {
+    display: flex;
+}
+
+
+.item_con-img  {
+    background: linear-gradient(to left, #f38181, #fce38a);
+    transition: transform .3s linear;
+}
+
+.item_con-img img {
+    display: block;
+    transition: opacity .4s linear;
+}
+
+.item_con-img:hover  img {
+    opacity: .1;
+}
+
+
+.worck__texsts {
+}
+.worck__svg {
+}
+.works__title {
+}
+.works__subtitle {
+}
