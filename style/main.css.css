@@ -9,8 +9,7 @@ hr {
     width: 100%;
     height: 1px;
     background-color: #999999;
-    margin: 40px 0
-    
+    margin: 40px 0;
 }
 
 .header {
@@ -85,6 +84,7 @@ hr {
     color: #fff;
     font-size: 30px;
 }
+
 
 .header__link {
     font-family: 'Montserrat', sans-serif;
@@ -958,18 +958,24 @@ hr {
     height: 290px;
     display: flex;
     align-items: center;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
 }
 
 .quote__info__wrapper {
+    width: 100%;
+
     display: flex;
-    flex-wrap: wrap;
 }
 
 .quote__img {
-    border: 3px solid #95e1d3;
-    padding: 41px;
 }
-
+.quote__img img {
+    max-width: 100%;
+    border: 3px solid #95e1d3;
+    padding: 25px 25px;
+}
 
 .quote__text {
     font-family: 'Roboto', sans-serif;
@@ -1609,3 +1615,4 @@ hr {
 }
 .say__texts {
 }
+
