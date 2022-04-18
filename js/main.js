@@ -115,9 +115,18 @@ const sliderLine = document.querySelector('.info__wrapper');
 
 
 let clickNext = () => {
-    offset += 900;
-    if (offset > 900){
+    offset += 100;
+    if (offset > 200){
         offset = 0;
     }
-    sliderLine.style.left = -offset + 'px';
+    sliderLine.style.left = -offset + '%';
 }
+
+let clickPrev = () => {
+    offset -= 100;
+    if (offset < 0){
+        offset = 0;
+    }
+    sliderLine.style.left = -offset + '%';
+}
+
