@@ -102,7 +102,7 @@ hr {
 }
 
 .welcome {
-    background-image: url(../../progectait/img/bg/picture.jpg);
+    background-image: url(../img/bg/picture.jpg);
     background-position: center;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -955,25 +955,66 @@ hr {
     justify-content: space-between;
 }
 .info__wrapper-cont{
-    height: 350px;
-    width: 1100px;
+    height: 300px;
     overflow: hidden;
+    width: 100vmin;
 }
 .info__wrapper {
-    height: 300px;
+    width: 300vmin;
     display: flex;
     position: relative;
     left: 0;
+
     transition: all ease 1s;
 }
 
 .quote__info__wrapper {
-    height: 300px;
     display: flex;
-    min-width: 1100px;
+    width: 100vmin;
+    margin-left: 50px;
+    margin-right: 50px;
     align-items: center;
 }
 
+@media (max-width: 640px) {
+    .quote__info__wrapper {
+        width: 80vmin;
+    }
+    .info__wrapper-cont{
+        height: 350px;
+
+    }
+}
+@media (max-width: 600px) {
+    .quote__info__wrapper {
+        width: 75vmin;
+    }
+}
+@media (max-width: 470px) {
+    .quote__info__wrapper {
+        width: 70vmin;
+    }
+}
+@media (max-width: 400px) {
+    .quote__info__wrapper {
+        width: 65vmin;
+    }
+    .info__wrapper-cont{
+        height: 400px;
+
+    }
+}
+@media (max-width: 360px) {
+    .quote__info__wrapper {
+        width: 60vmin;
+    }
+}
+.quote__info__wrapper:first-child {
+    margin-left: 0px;
+}
+.quote__info__wrapper:last-child {
+    margin-right: 0px;
+}
 .quote__img {
 }
 
@@ -1011,7 +1052,7 @@ hr {
 .quote__text span::before {
     content: "";
     position: absolute;
-    left: -10%;
+    left: 40%;
     top: 50%;
     width: 60px;
     height: 3px;
@@ -1051,7 +1092,7 @@ hr {
 @media (max-width: 1030px) {
     .quote {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #f8f8f8;
 }
     .quote__info__wrapper {
@@ -1082,7 +1123,7 @@ hr {
 .quote__text span::before {
     content: "";
     position: absolute;
-    left: -32%;
+    left: -50%;
     top: 50%;
     width: 60px;
     height: 3px;
@@ -1562,77 +1603,8 @@ hr {
     .story__items {
         justify-content: center;
     }
-    .piple__wrapper {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .piple__texts {
-        justify-content: center;
-    }
-    .piple__text {
-        justify-content: center;
-    }
 }
 
-@media (max-width: 750px) {
-    .piple__title {
-        margin-left: 150px;
-    }
-    .piple__title::before {
-    content: "";
-    position: absolute;
-    left: -20%;
-    top: 50%;
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
+.worcks__items {
+    padding-bottom: 100px;
 }
-}
-
-.slider__piple {
-    margin-bottom: 160px;
-}
-
-
-
-
-
-.piple__say {
-    background-image: url(../img/say/Rectangle_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.container {
-} 
-.say {
-    padding-top: 60px;
-}
-.team__title {
-}
-.work {
-}
-.story__titls {
-}
-.story__title {
-}
-.story__main-title {
-}
-.say__wrapper {
-}
-.say__items {
-}
-.say__item {
-}
-.say__img {
-}
-.say__content {
-}
-.say__titls {
-}
-.say__title {
-}
-.say__after-title {
-}
-.say__texts {
-}
-
